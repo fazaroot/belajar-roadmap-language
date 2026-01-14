@@ -1,26 +1,15 @@
-🇩🇪 Roadmap Belajar Bahasa Jerman (Standar LPK)
+# 🇩🇪 Roadmap Belajar Bahasa Jerman (Standar LPK)
 
-Roadmap ini disusun mengikuti pola pembelajaran LPK (Lembaga Pelatihan Kerja) yang berorientasi pada:
-
-Standar CEFR (A1–C1)
-
-Kebutuhan kerja, magang, dan Ausbildung
-
-Keseimbangan Hören, Sprechen, Lesen, Schreiben
-
-
-Dokumen ini cocok disimpan sebagai README.md di repository GitHub.
-
+Roadmap ini disusun mengikuti pola pembelajaran **LPK (Lembaga Pelatihan Kerja)** yang berorientasi pada kebutuhan praktis kerja, magang, dan *Ausbildung* di Jerman.
 
 ---
 
-🎯 Tujuan Akhir
+## 🎯 Tujuan Akhir
+* **Sertifikasi:** Lulus ujian Goethe / TELC / ÖSD.
+* **Karir:** Siap kerja di Jerman (Industri, Caregiver, Perhotelan).
+* **Komunikasi:** Mampu komunikasi formal & profesional.
 
-Lulus ujian Goethe / TELC / ÖSD
-
-Siap kerja di Jerman (industri, perhotelan, caregiver, manufaktur)
-
-Mampu komunikasi formal & profesional
+---
 
 ## 🗺️ Alur Pembelajaran (Roadmap)
 
@@ -32,35 +21,37 @@ flowchart TD
     B1 --> B2[Level Lanjutan B2]
     B2 --> C1[Level Mahir C1]
 
-    subgraph "Tahap Dasar"
+    subgraph A1_Level [A1: Dasar]
     A1 --> A1P[Pengucapan & Alphabet]
     A1 --> A1V[Kosakata Dasar]
     A1 --> A1G[Tata Bahasa Dasar]
     end
 
-    subgraph "Tahap Adaptasi"
+    subgraph A2_Level [A2: Pemula]
     A2 --> A2V[Kosakata Sehari-hari]
     A2 --> A2S[Kalimat Sederhana]
     A2 --> A2G[Tata Bahasa Lanjutan]
     end
 
-    subgraph "Tahap Mandiri (Syarat Ausbildung)"
+    subgraph B1_Level [B1: Menengah/Kerja]
     B1 --> B1K[Kalimat Kompleks]
     B1 --> B1V[Kosakata Kerja]
     B1 --> B1W[Menulis Paragraf]
     end
 
-    subgraph "Tahap Profesional"
+    subgraph B2_Level [B2: Profesional]
     B2 --> B2S[Komunikasi Profesional]
     B2 --> B2W[Surat & Email Kerja]
     B2 --> B2L[Pemahaman Teks Panjang]
     end
 
-    subgraph "Tahap Akademik"
+    subgraph C1_Level [C1: Mahir]
     C1 --> C1A[Diskusi & Argumen]
     C1 --> C1W[Menulis Formal]
     C1 --> C1R[Analisis Teks Kompleks]
     end
+
+
 ---
 
 📘 Detail Materi per Level
