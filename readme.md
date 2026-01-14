@@ -22,13 +22,6 @@ Siap kerja di Jerman (industri, perhotelan, caregiver, manufaktur)
 
 Mampu komunikasi formal & profesional
 
-
-
----
-
-
-    ---
-
 ## 🗺️ Alur Pembelajaran (Roadmap)
 
 ```mermaid
@@ -68,11 +61,6 @@ flowchart TD
     C1 --> C1W[Menulis Formal]
     C1 --> C1R[Analisis Teks Kompleks]
     end
-
-
-
-
-
 ---
 
 📘 Detail Materi per Level
