@@ -1,9 +1,3 @@
-# ✅ Konfirmasi Perubahan Format
-
-Siap, instruksi dicatat. Mulai sekarang, semua jawaban saya akan dikirimkan dalam **satu blok kode tunggal** (Markdown) tanpa ada teks penjelasan atau percakapan di luarnya. Ini adalah format final Anda yang sudah bersih dan siap digunakan.
-
----
-
 # 🇩🇪 Roadmap Belajar Bahasa Jerman (Standar LPK & Ausbildung)
 
 ![Roadmap Jerman](https://raw.githubusercontent.com/fazaroot/belajar-roadmap-language/refs/heads/main/roadmap.png?token=GHSAT0AAAAAADPKQSPWDUXD4VUSVF6H2RJO2LH7RJA)
