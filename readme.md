@@ -27,6 +27,7 @@ Mampu komunikasi formal & profesional
 ---
 
 
+    flowchart LR
     START([Mulai Belajar]) --> A1[Level Dasar A1]
     A1 --> A2[Level Pemula A2]
     A2 --> B1[Level Menengah B1]
