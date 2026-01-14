@@ -1,6 +1,6 @@
 # 🇩🇪 Roadmap Belajar Bahasa Jerman (Standar LPK & Ausbildung)
 
-![Roadmap Jerman](https://raw.githubusercontent.com/fazaroot/belajar-roadmap-language/refs/heads/main/roadmap.png?token=GHSAT0AAAAAADPKQSPWDUXD4VUSVF6H2RJO2LH7RJA)
+![Roadmap Jerman](https://raw.githubusercontent.com/fazaroot/belajar-roadmap-language/refs/heads/main/roadmap.png)
 
 Roadmap ini disusun berdasarkan **kurikulum intensif LPK** untuk persiapan kerja nyata. Fokusnya bukan sekadar "bisa ngomong", tapi **lulus ujian sertifikasi** dan **bertahan hidup** dalam birokrasi serta dunia kerja Jerman.
 
