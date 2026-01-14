@@ -1,4 +1,3 @@
-
 # 🇩🇪 Roadmap Belajar Bahasa Jerman (Standar LPK)
 
 Roadmap ini disusun mengikuti pola pembelajaran **LPK (Lembaga Pelatihan Kerja)** yang berorientasi pada kebutuhan praktis kerja, magang, dan *Ausbildung* di Jerman.
@@ -16,40 +15,44 @@ Roadmap ini disusun mengikuti pola pembelajaran **LPK (Lembaga Pelatihan Kerja)*
 
 ```mermaid
 flowchart TD
-    START([Mulai Belajar]) --> A1[Level Dasar A1]
-    A1 --> A2[Level Pemula A2]
-    A2 --> B1[Level Menengah B1]
-    B1 --> B2[Level Lanjutan B2]
-    B2 --> C1[Level Mahir C1]
+    %% Ukuran font diperbesar via classDef agar lebih enak dibaca di mobile/PC
+    classDef bigger font-size:18px,font-weight:bold;
+    classDef level font-size:20px,fill:#f9f,stroke:#333,stroke-width:2px;
+
+    START([Mulai Belajar]):::bigger --> A1[Level Dasar A1]:::level
+    A1 --> A2[Level Pemula A2]:::level
+    A2 --> B1[Level Menengah B1]:::level
+    B1 --> B2[Level Lanjutan B2]:::level
+    B2 --> C1[Level Mahir C1]:::level
 
     subgraph A1_Level [Tahap Dasar A1]
-    A1 --> A1P[Pengucapan & Alphabet]
-    A1 --> A1V[Kosakata Dasar]
-    A1 --> A1G[Tata Bahasa Dasar]
+    A1 --> A1P[Pengucapan & Alphabet]:::bigger
+    A1 --> A1V[Kosakata Dasar]:::bigger
+    A1 --> A1G[Tata Bahasa Dasar]:::bigger
     end
 
     subgraph A2_Level [Tahap Pemula A2]
-    A2 --> A2V[Kosakata Sehari-hari]
-    A2 --> A2S[Kalimat Sederhana]
-    A2 --> A2G[Tata Bahasa Lanjutan]
+    A2 --> A2V[Kosakata Sehari-hari]:::bigger
+    A2 --> A2S[Kalimat Sederhana]:::bigger
+    A2 --> A2G[Tata Bahasa Lanjutan]:::bigger
     end
 
     subgraph B1_Level [Syarat Ausbildung B1]
-    B1 --> B1K[Kalimat Kompleks]
-    B1 --> B1V[Kosakata Kerja]
-    B1 --> B1W[Menulis Paragraf]
+    B1 --> B1K[Kalimat Kompleks]:::bigger
+    B1 --> B1V[Kosakata Kerja]:::bigger
+    B1 --> B1W[Menulis Paragraf]:::bigger
     end
 
     subgraph B2_Level [Profesional B2]
-    B2 --> B2S[Komunikasi Profesional]
-    B2 --> B2W[Surat & Email Kerja]
-    B2 --> B2L[Pemahaman Teks Panjang]
+    B2 --> B2S[Komunikasi Profesional]:::bigger
+    B2 --> B2W[Surat & Email Kerja]:::bigger
+    B2 --> B2L[Pemahaman Teks Panjang]:::bigger
     end
 
     subgraph C1_Level [Mahir C1]
-    C1 --> C1A[Diskusi & Argumen]
-    C1 --> C1W[Menulis Formal]
-    C1 --> C1R[Analisis Teks Kompleks]
+    C1 --> C1A[Diskusi & Argumen]:::bigger
+    C1 --> C1W[Menulis Formal]:::bigger
+    C1 --> C1R[Analisis Teks Kompleks]:::bigger
     end
 ```
 
