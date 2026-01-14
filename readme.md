@@ -16,11 +16,11 @@ flowchart TD
 
     START([Mulai Zero]):::bigger --> A1[Level A1: Pondasi]:::level
     A1 --> A2[Level A2: Adaptasi]:::level
-    A2 --> EXAM_A2{{Ujian A2 (Opsional)}}:::exam
+    A2 --> EXAM_A2{Ujian A2 Opsional}:::exam
     EXAM_A2 --> B1[Level B1: Syarat Ausbildung]:::level
-    B1 --> EXAM_B1{{Ujian Sertifikat B1}}:::exam
+    B1 --> EXAM_B1{Ujian Sertifikat B1}:::exam
     EXAM_B1 --> B2[Level B2: Profesional]:::level
-    B2 --> EXAM_B2{{Ujian Sertifikat B2}}:::exam
+    B2 --> EXAM_B2{Ujian Sertifikat B2}:::exam
 
     subgraph Phase_1 [Fase Menghafal Mati]
     A1 --> A1P[Artikel: Der Die Das]
