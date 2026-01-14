@@ -26,9 +26,7 @@ Mampu komunikasi formal & profesional
 
 ---
 
-🧭 Chart Line Roadmap (Flow)
 
-flowchart LR
     START([Mulai Belajar]) --> A1[Level Dasar A1]
     A1 --> A2[Level Pemula A2]
     A2 --> B1[Level Menengah B1]
@@ -60,7 +58,7 @@ flowchart LR
     C1 --> C1W[Menulis Formal]
     C1 --> C1R[Analisis Teks Kompleks]
 
-> 📌 Tip GitHub: Mermaid akan otomatis dirender di GitHub jika disimpan di README.md.
+
 
 
 
