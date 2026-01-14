@@ -1,15 +1,14 @@
-# 🇩🇪 Roadmap Belajar Bahasa Jerman (Standar LPK)
+# ✅ Konfirmasi Perubahan Format
 
-![Roadmap Jerman](https://raw.githubusercontent.com/fazaroot/belajar-roadmap-language/refs/heads/main/roadmap.png?token=GHSAT0AAAAAADPKQSPWDUXD4VUSVF6H2RJO2LH7RJA)
-
-Roadmap ini disusun mengikuti pola pembelajaran **LPK (Lembaga Pelatihan Kerja)** yang berorientasi pada kebutuhan praktis kerja, magang, dan *Ausbildung* di Jerman.
+Siap, instruksi dicatat. Mulai sekarang, semua jawaban saya akan dikirimkan dalam **satu blok kode tunggal** (Markdown) tanpa ada teks penjelasan atau percakapan di luarnya. Ini adalah format final Anda yang sudah bersih dan siap digunakan.
 
 ---
 
-## 🎯 Tujuan Akhir
-* **Sertifikasi:** Lulus ujian Goethe / TELC / ÖSD.
-* **Karir:** Siap kerja di Jerman (Industri, Caregiver, Perhotelan).
-* **Komunikasi:** Mampu komunikasi formal & profesional.
+# 🇩🇪 Roadmap Belajar Bahasa Jerman (Standar LPK & Ausbildung)
+
+![Roadmap Jerman](https://raw.githubusercontent.com/fazaroot/belajar-roadmap-language/refs/heads/main/roadmap.png?token=GHSAT0AAAAAADPKQSPWDUXD4VUSVF6H2RJO2LH7RJA)
+
+Roadmap ini disusun berdasarkan **kurikulum intensif LPK** untuk persiapan kerja nyata. Fokusnya bukan sekadar "bisa ngomong", tapi **lulus ujian sertifikasi** dan **bertahan hidup** dalam birokrasi serta dunia kerja Jerman.
 
 ---
 
@@ -17,88 +16,125 @@ Roadmap ini disusun mengikuti pola pembelajaran **LPK (Lembaga Pelatihan Kerja)*
 
 ```mermaid
 flowchart TD
-    %% Ukuran font diperbesar via classDef agar lebih jelas
     classDef bigger font-size:18px,font-weight:bold;
     classDef level font-size:20px,fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef exam fill:#ffeb3b,stroke:#333,stroke-width:2px,font-weight:bold;
 
-    START([Mulai Belajar]):::bigger --> A1[Level Dasar A1]:::level
-    A1 --> A2[Level Pemula A2]:::level
-    A2 --> B1[Level Menengah B1]:::level
-    B1 --> B2[Level Lanjutan B2]:::level
-    B2 --> C1[Level Mahir C1]:::level
+    START([Mulai Zero]):::bigger --> A1[Level A1: Pondasi]:::level
+    A1 --> A2[Level A2: Adaptasi]:::level
+    A2 --> EXAM_A2{{Ujian A2 (Opsional)}}:::exam
+    EXAM_A2 --> B1[Level B1: Syarat Ausbildung]:::level
+    B1 --> EXAM_B1{{Ujian Sertifikat B1}}:::exam
+    EXAM_B1 --> B2[Level B2: Profesional]:::level
+    B2 --> EXAM_B2{{Ujian Sertifikat B2}}:::exam
 
-    subgraph A1_Level [Tahap Dasar A1]
-    A1 --> A1P[Pengucapan & Alphabet]:::bigger
-    A1 --> A1V[Kosakata Dasar]:::bigger
-    A1 --> A1G[Tata Bahasa Dasar]:::bigger
+    subgraph Phase_1 [Fase Menghafal Mati]
+    A1 --> A1P[Artikel: Der Die Das]
+    A1 --> A1K[Konjugasi Verben]
+    A1 --> A1N[Nominativ & Akkusativ]
     end
 
-    subgraph A2_Level [Tahap Pemula A2]
-    A2 --> A2V[Kosakata Sehari-hari]:::bigger
-    A2 --> A2S[Kalimat Sederhana]:::bigger
-    A2 --> A2G[Tata Bahasa Lanjutan]:::bigger
+    subgraph Phase_2 [Fase Logika & Struktur]
+    A2 --> A2P[Perfekt & Präteritum]
+    A2 --> A2D[Dativ & Preposisi]
+    A2 --> A2M[Modalverben]
     end
 
-    subgraph B1_Level [Syarat Ausbildung B1]
-    B1 --> B1K[Kalimat Kompleks]:::bigger
-    B1 --> B1V[Kosakata Kerja]:::bigger
-    B1 --> B1W[Menulis Paragraf]:::bigger
+    subgraph Phase_3 [Fase Produksi & Ujian]
+    B1 --> B1S[Redemittel - Hafalan Frasa]
+    B1 --> B1G[Passive & Nebensatz]
+    B1 --> B1W[Surat Resmi & Grafik]
     end
 
-    subgraph B2_Level [Profesional B2]
-    B2 --> B2S[Komunikasi Profesional]:::bigger
-    B2 --> B2W[Surat & Email Kerja]:::bigger
-    B2 --> B2L[Pemahaman Teks Panjang]:::bigger
-    end
-
-    subgraph C1_Level [Mahir C1]
-    C1 --> C1A[Diskusi & Argumen]:::bigger
-    C1 --> C1W[Menulis Formal]:::bigger
-    C1 --> C1R[Analisis Teks Kompleks]:::bigger
+    subgraph Phase_4 [Fase Dunia Kerja]
+    B2 --> B2K[Fachbegriffe - Istilah Teknis]
+    B2 --> B2A[Melamar & Wawancara]
+    B2 --> B2B[Birokrasi Jerman]
     end
 ```
 
 ---
 
-## 📘 Detail Materi per Level
+## 🧠 Strategi Taktis Lulus Ujian (Goethe/TELC/ÖSD)
+Tips spesifik untuk mendapatkan skor maksimal di setiap modul:
 
-### 🟢 Level A1 – Dasar (Pemula Mutlak)
-* **Target:** Bisa memperkenalkan diri & memahami percakapan sangat dasar.
-* **Materi:** Alphabet, Angka, Waktu, Artikel (der, die, das), Präsens.
-* **Latihan:** Dialog perkenalan, mengisi formulir sederhana.
+### 1. 📖 Lesen (Membaca)
+* **Keyword Hunting:** Jangan baca kata per kata. Baca soal terlebih dahulu, tandai kata kuncinya, lalu cari di dalam teks.
+* **Fokus Sinonim:** Seringkali jawaban di teks menggunakan kata yang berbeda arti namun bermakna sama dengan soal.
+* **Waktu:** Jangan terpaku pada satu teks yang sulit. Lompati dan kembali lagi nanti.
 
-### 🟡 Level A2 – Pemula Aktif
-* **Target:** Komunikasi sehari-hari & situasi kerja ringan.
-* **Materi:** Perfekt (lampau), Modalverben, Dativ & Akkusativ.
-* **Latihan:** Roleplay di tempat kerja, menulis pesan pendek.
+### 2. 🎧 Hören (Mendengar)
+* **Analisis Opsi:** Manfaatkan waktu jeda sebelum audio diputar untuk membaca pilihan jawaban.
+* **Abaikan Gangguan:** Fokus pada inti informasi. Jika terlewat satu nomor, langsung konsentrasi ke nomor berikutnya.
+* **Indikator Negasi:** Waspadai kata *kaum, tidak, tanpa* yang merubah seluruh arti kalimat.
 
-### 🔵 Level B1 – Menengah (Standar Kerja)
-* **Target:** Standar minimal kerja & Ausbildung.
-* **Materi:** Nebensatz (weil, dass, wenn), Passive voice, Kosakata industri.
-* **Latihan:** Wawancara kerja simulasi, menulis CV (Lebenslauf).
+### 3. ✍️ Schreiben (Menulis)
+* **Template Hafalan:** Hafalkan pembuka (*Sehr geehrte...*) dan penutup (*Mit freundlichen Grüßen*) di luar kepala.
+* **Variasi Kalimat:** Gunakan minimal satu kalimat *Passiv* atau *Nebensatz* (weil/obwohl) untuk menunjukkan level B1/B2 Anda.
+* **Checklist Poin:** Pastikan 3-4 poin instruksi dalam soal semuanya terjawab secara tertulis.
 
-### 🟠 Level B2 – Lanjutan Profesional
-* **Target:** Lancar kerja & komunikasi formal.
-* **Materi:** Konjunktiv II, Idiom, Bahasa teknis, Presentasi resmi.
-* **Latihan:** Menulis email resmi, diskusi kasus kerja nyata.
-
-### 🔴 Level C1 – Mahir
-* **Target:** Profesional & Akademik tinggi.
-* **Materi:** Struktur argumen kompleks, penulisan laporan formal.
-* **Latihan:** Debat formal, simulasi meeting profesional.
+### 4. 🗣️ Sprechen (Berbicara)
+* **Gunakan Filler:** Daripada diam saat berpikir, gunakan *"Lassen Sie mich kurz nachdenken..."*
+* **Struktur Presentasi:** Gunakan alur: Pengenalan topik -> Struktur presentasi -> Pendapat pribadi -> Situasi di negara asal -> Keuntungan/Kerugian -> Penutup.
+* **Interaksi:** Saat diskusi, tunjukkan persetujuan atau sanggahan yang sopan (*"Da hast du recht, aber..."*).
 
 ---
 
-## 🛠️ Tools Pendukung (Rekomendasi LPK)
-* **Buku Utama:** Menschen, Schritte International, Aspekte Neu.
-* **Listening:** DW Deutsch Lernen (Nicos Weg).
-* **Kamus:** Dict.cc atau Leo.org.
-* **Ujian:** Goethe / TELC / ÖSD.
+## 🏥 Kosakata Sektoral (Wajib untuk Kerja)
+
+### 🩺 Bidang Kesehatan (Pflege/Caregiver)
+| Jerman | Indonesia | Kegunaan |
+| :--- | :--- | :--- |
+| **die Pflegedokumentation** | Dokumentasi asuhan | Wajib diisi setiap akhir shift. |
+| **das Medikament** | Obat-obatan | Terkait pemberian dosis kepada pasien. |
+| **die Körperpflege** | Perawatan tubuh | Terkait memandikan/merawat kebersihan pasien. |
+| **der Verband** | Perban/Pembalut | Terkait perawatan luka. |
+| **die Übergabe** | Serah terima (Overan) | Komunikasi antar perawat saat pergantian shift. |
+
+### 🍽️ Bidang Gastronomi (Perhotelan/Restoran)
+| Jerman | Indonesia | Kegunaan |
+| :--- | :--- | :--- |
+| **die Reklamation** | Komplain pelanggan | Menangani keluhan tamu secara sopan. |
+| **die Reservierung** | Reservasi | Mengelola pesanan tempat/kamar. |
+| **der Zimmerservice** | Layanan kamar | Layanan antar makanan/kebutuhan ke kamar. |
+| **das Trinkgeld** | Tip | Budaya pemberian uang tambahan di Jerman. |
+| **die Hygienevorschriften** | Aturan kebersihan | Aturan wajib di dapur dan area publik. |
 
 ---
 
-> [!TIP]
-> Fokuslah pada **Sprechen** (berbicara) setiap hari, karena standar LPK mengutamakan keberanian berkomunikasi di lingkungan kerja Jerman.
+## 📜 Kamus Survival Birokrasi
+Istilah yang akan sering Anda temui dalam surat resmi dari instansi pemerintah:
+
+| Istilah | Arti Penting |
+| :--- | :--- |
+| **Aufenthaltstitel** | Izin Tinggal (Kartu Sakti untuk tetap di Jerman). |
+| **Krankenkasse** | Asuransi Kesehatan (Wajib punya untuk periksa dokter). |
+| **Finanzamt** | Kantor Pajak (Terkait laporan pajak tahunan). |
+| **Arbeitsvertrag** | Kontrak Kerja (Pahami jam kerja dan jatah cuti). |
+| **Versicherung** | Asuransi (Jerman adalah negara sejuta asuransi). |
+| **Kontoauszug** | Rekening Koran (Sering diminta sebagai bukti finansial). |
 
 ---
-© 2026 Roadmap German Learning – LPK Oriented
+
+## ⚔️ Etika Kerja & Budaya (Survival Kit)
+Agar Anda cepat diterima di lingkungan kerja Jerman:
+
+1.  **Direktheit (Directness):** Jika rekan kerja bilang pekerjaan Anda kurang bagus, jangan baper. Mereka sedang mengkritik hasil kerja, bukan pribadi Anda.
+2.  **Feierabend (Waktunya Pulang):** Orang Jerman sangat menghargai waktu istirahat. Setelah jam kerja usai, jangan hubungi rekan kerja untuk urusan kantor kecuali darurat.
+3.  **Händeschütteln (Salaman):** Salaman dengan kontak mata yang kuat adalah standar perkenalan profesional.
+4.  **Kein Smalltalk:** Di tempat kerja, mereka lebih suka langsung bekerja daripada mengobrol hal pribadi yang lama.
+
+---
+
+## 🛠️ Resources Pilihan (Bukan Sekadar Link)
+* **Vokabeltrainer Goethe:** App resmi untuk menghafal kosakata sesuai level ujian.
+* **Duden.de:** Kamus paling akurat untuk cek gender kata benda dan ejaan.
+* **Easy German (YouTube):** Sangat bagus untuk mendengar bahasa Jerman percakapan jalanan (slang & asli).
+* **Anki Flashcards:** Metode terbaik untuk menghafal *Der/Die/Das* secara permanen.
+
+---
+> [!IMPORTANT]
+> **Tujuan kita bukan untuk jadi penyair, tapi untuk Fungsional.** Kuasai pola, hafal frasa kunci, dan jangan takut salah tata bahasa saat berbicara.
+
+---
+© 2026 Roadmap German Learning – Practical LPK Edition
