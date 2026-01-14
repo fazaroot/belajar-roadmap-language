@@ -1,5 +1,7 @@
 # 🇩🇪 Roadmap Belajar Bahasa Jerman (Standar LPK)
 
+![Roadmap Jerman](https://raw.githubusercontent.com/fazaroot/belajar-roadmap-language/refs/heads/main/roadmap.png?token=GHSAT0AAAAAADPKQSPWDUXD4VUSVF6H2RJO2LH7RJA)
+
 Roadmap ini disusun mengikuti pola pembelajaran **LPK (Lembaga Pelatihan Kerja)** yang berorientasi pada kebutuhan praktis kerja, magang, dan *Ausbildung* di Jerman.
 
 ---
@@ -15,7 +17,7 @@ Roadmap ini disusun mengikuti pola pembelajaran **LPK (Lembaga Pelatihan Kerja)*
 
 ```mermaid
 flowchart TD
-    %% Ukuran font diperbesar via classDef agar lebih enak dibaca di mobile/PC
+    %% Ukuran font diperbesar via classDef agar lebih jelas
     classDef bigger font-size:18px,font-weight:bold;
     classDef level font-size:20px,fill:#f9f,stroke:#333,stroke-width:2px;
 
