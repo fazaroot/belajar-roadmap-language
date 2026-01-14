@@ -27,38 +27,47 @@ Mampu komunikasi formal & profesional
 ---
 
 
-    flowchart LR
+    ---
+
+## 🗺️ Alur Pembelajaran (Roadmap)
+
+```mermaid
+flowchart TD
     START([Mulai Belajar]) --> A1[Level Dasar A1]
     A1 --> A2[Level Pemula A2]
     A2 --> B1[Level Menengah B1]
     B1 --> B2[Level Lanjutan B2]
     B2 --> C1[Level Mahir C1]
 
-    %% A1
+    subgraph "Tahap Dasar"
     A1 --> A1P[Pengucapan & Alphabet]
     A1 --> A1V[Kosakata Dasar]
     A1 --> A1G[Tata Bahasa Dasar]
+    end
 
-    %% A2
+    subgraph "Tahap Adaptasi"
     A2 --> A2V[Kosakata Sehari-hari]
     A2 --> A2S[Kalimat Sederhana]
     A2 --> A2G[Tata Bahasa Lanjutan]
+    end
 
-    %% B1
+    subgraph "Tahap Mandiri (Syarat Ausbildung)"
     B1 --> B1K[Kalimat Kompleks]
     B1 --> B1V[Kosakata Kerja]
     B1 --> B1W[Menulis Paragraf]
+    end
 
-    %% B2
+    subgraph "Tahap Profesional"
     B2 --> B2S[Komunikasi Profesional]
     B2 --> B2W[Surat & Email Kerja]
     B2 --> B2L[Pemahaman Teks Panjang]
+    end
 
-    %% C1
+    subgraph "Tahap Akademik"
     C1 --> C1A[Diskusi & Argumen]
     C1 --> C1W[Menulis Formal]
     C1 --> C1R[Analisis Teks Kompleks]
-
+    end
 
 
 
