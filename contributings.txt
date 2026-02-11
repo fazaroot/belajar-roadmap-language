@@ -20,3 +20,4 @@ Merge ke-20
 Merge ke-21
 Merge ke-22
 Merge ke-23
+Merge ke-24
